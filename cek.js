@@ -64,7 +64,7 @@ const Login = async function(User){
 
 function randomString1() {
 	var chars = "abcdefghiklmnopqrstuvwxyz";
-	var string_length = 5;
+	var string_length = 4;y
 	var randomstring = '';
 	for (var i=0; i<string_length; i++) {
 		var rnum = Math.floor(Math.random() * chars.length);
@@ -76,7 +76,7 @@ function randomString1() {
 
 function randomString() {
 	var chars = "0123456789abcdefghiklmnopqrstuvwxyz";
-	var string_length = 5; //ubah sesuai keinginanmu
+	var string_length = 4; //ubah sesuai keinginanmu
 	var randomstring = '';
 	for (var i=0; i<string_length; i++) {
 		var rnum = Math.floor(Math.random() * chars.length);
